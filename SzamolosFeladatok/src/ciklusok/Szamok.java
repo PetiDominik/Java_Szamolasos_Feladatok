@@ -18,10 +18,9 @@ public class Szamok {
                 for (int k = 2; k <= 4; k++) {
                     if (!ismetles && (i == j || i == k || j == k)) {
                         continue;
-                    }else {
-                        db++;
                     }
                     System.out.printf("%d%d%d\n", i, j, k);
+                    db++;
                 }
             }
         }
