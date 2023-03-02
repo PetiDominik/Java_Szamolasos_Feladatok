@@ -10,7 +10,7 @@ public class Sarkanyos {
         
         while (((7*i) + (11*j)) != 145) {
             j = 1;
-            while (((7*i) + (11*j)) < 145) {
+            while (((7*i) + (11*j)) < 145-11) {
                 j++;
             }
             i++;
